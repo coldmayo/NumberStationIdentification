@@ -1,11 +1,9 @@
 from scipy.io import wavfile
 from mutagen import mp3
-
 from PyQt5.QtCore import QUrl, pyqtSignal
 from PyQt5.QtGui import QFont
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from PyQt5.QtWidgets import QWidget, QLabel, QHBoxLayout, QVBoxLayout
-
 from pyqt_media_slider.mediaSlider import MediaSlider
 from pyqt_svg_button.svgButton import SvgButton
 from PyQt5.QtCore import Qt
